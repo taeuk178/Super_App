@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 final class MainViewController: UIViewController {
     
@@ -38,6 +39,8 @@ final class MainViewController: UIViewController {
         return $0
     }(UIButton(type: .custom))
     
+    private let hostingViewController = UIHostingController(rootView: SessionSwiftUIView())
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -56,7 +59,7 @@ final class MainViewController: UIViewController {
     
     @objc
     private func pushSwiftUI(_ sender: UIButton) {
-        
+        navigationController?.pushViewController(hostingViewController, animated: true)
     }
 
     private func setLayer() {
