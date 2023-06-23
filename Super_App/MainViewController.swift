@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  Super_App
 //
 //  Created by tw on 2023/06/13.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ViewController: UIViewController {
+final class MainViewController: UIViewController {
     
     private let mainStackView: UIStackView = {
         $0.axis = .vertical
@@ -60,6 +60,8 @@ final class ViewController: UIViewController {
     }
 
     private func setLayer() {
+        
+        navigationItem.title = "iOS 언어"
         
         view.addSubview(mainStackView)
         mainStackView.addArrangedSubview(uikitLabel)
