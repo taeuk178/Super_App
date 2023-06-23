@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct SessionSwiftUIView: View {
+    
+    @State var sessions: [String] = ["TipKit", "Test"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List{
+            ForEach(sessions, id: \.self) { session in
+                NavigationLink {
+                    TipKitView()
+                } label: {
+                    Text(session)
+                }
+            }
+        }
     }
 }
 

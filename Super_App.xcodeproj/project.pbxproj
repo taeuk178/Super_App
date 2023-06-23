@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		306309382A45DEAE002DE14A /* SessionSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306309372A45DEAE002DE14A /* SessionSwiftUIView.swift */; };
+		3063093B2A45E2CB002DE14A /* TipKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063093A2A45E2CB002DE14A /* TipKitView.swift */; };
 		30A9D5672A38A8A800300FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9D5662A38A8A800300FC1 /* AppDelegate.swift */; };
 		30A9D5692A38A8A800300FC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9D5682A38A8A800300FC1 /* SceneDelegate.swift */; };
 		30A9D56B2A38A8A800300FC1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9D56A2A38A8A800300FC1 /* MainViewController.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		306309372A45DEAE002DE14A /* SessionSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSwiftUIView.swift; sourceTree = "<group>"; };
+		3063093A2A45E2CB002DE14A /* TipKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKitView.swift; sourceTree = "<group>"; };
 		30A9D5632A38A8A800300FC1 /* Super_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Super_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A9D5662A38A8A800300FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30A9D5682A38A8A800300FC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		306309392A45E2B1002DE14A /* SwiftUISession */ = {
+			isa = PBXGroup;
+			children = (
+				3063093A2A45E2CB002DE14A /* TipKitView.swift */,
+			);
+			path = SwiftUISession;
+			sourceTree = "<group>";
+		};
 		30A9D55A2A38A8A800300FC1 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 				30A9D5682A38A8A800300FC1 /* SceneDelegate.swift */,
 				30A9D56A2A38A8A800300FC1 /* MainViewController.swift */,
 				306309372A45DEAE002DE14A /* SessionSwiftUIView.swift */,
+				306309392A45E2B1002DE14A /* SwiftUISession */,
 				30A9D56F2A38A8A900300FC1 /* Assets.xcassets */,
 				30A9D5712A38A8A900300FC1 /* LaunchScreen.storyboard */,
 				30A9D5742A38A8A900300FC1 /* Info.plist */,
@@ -139,6 +150,7 @@
 			files = (
 				30A9D56B2A38A8A800300FC1 /* MainViewController.swift in Sources */,
 				306309382A45DEAE002DE14A /* SessionSwiftUIView.swift in Sources */,
+				3063093B2A45E2CB002DE14A /* TipKitView.swift in Sources */,
 				30A9D5672A38A8A800300FC1 /* AppDelegate.swift in Sources */,
 				30A9D5692A38A8A800300FC1 /* SceneDelegate.swift in Sources */,
 			);
